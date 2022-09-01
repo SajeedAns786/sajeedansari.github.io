@@ -48,7 +48,8 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: lightblue;
+  background-color:#121212;
 }
 
 h1, h2, p {
@@ -112,7 +113,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: rgb(0, 157, 149);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -330,37 +331,37 @@ img {
 }
 
 .skills__js {
-  width: 50%;
+  width: 75%;
 }
 
 .skills__jquery {
   width: 70%;
 }
 .skills__java {
-  width: 80%;
-}
-
-.skills__python {
-  width: 40%;
-}
-
-.skills__django {
   width: 75%;
 }
 
-.skills__angular {
+.skills__python {
+  width: 60%;
+}
+
+.skills__django {
+  width: 70%;
+}
+
+.skills__cs {
   width: 60%;
 }
 .skills__mysql {
-  width: 90%;
+  width: 80%;
 }
 
-.skills__postgresql {
+.skills__c {
   width: 40%;
 }
 
 .skills__sqlite {
-  width: 85%;
+  width: 70%;
 }
 
 .skills__mongodb {
@@ -560,3 +561,5 @@ img {
     width: 450px;
   }
 }
+
+
